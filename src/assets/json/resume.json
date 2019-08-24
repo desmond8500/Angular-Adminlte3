@@ -1,0 +1,34 @@
+[
+  {
+    "number": "0",
+    "titre": "Strutures",
+    "lien": "/structures",
+    "linkname": "Consulter",
+    "color": "bg-info",
+    "icon": "ion-bag"
+  },
+  {
+    "number": "0",
+    "titre": "Agences",
+    "lien": "/agences",
+    "linkname": "Consulter",
+    "color": "bg-primary",
+    "icon": "ion-bag"
+  },
+  {
+    "number": "0",
+    "titre": "Tickets",
+    "lien": "/tickets",
+    "linkname": "Consulter",
+    "color": "bg-warning",
+    "icon": "ion-bag"
+  },
+  {
+    "number": "0",
+    "titre": "Smallbox",
+    "lien": "/tickets",
+    "linkname": "Consulter",
+    "color": "bg-info",
+    "icon": "ion-bag"
+  }
+]

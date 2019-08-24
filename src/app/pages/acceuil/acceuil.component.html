@@ -1,0 +1,49 @@
+<div class="row">
+  <div class="col-md-6 col-xs-12">
+    <div class="card card-body">
+      <div class="form-group">
+        <label> Structures </label>
+        <select class="form-control">
+          <option>Sélectionnez une structure</option>
+          <option *ngFor='let structure of structureList' (click)='getAgences(structure.id)'>{{ structure.nom }}
+          </option>
+        </select>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6 col-xs-12" >
+    <div class="card card-body">
+      <div class="form-group">
+        <label> Agences </label>
+        <select class="form-control">
+          <option>Sélectionnez une agence</option>
+          <option *ngFor='let agence of agenceList' (click)='getServices(agence.id)'>{{ agence.nom }}
+          </option>
+        </select>
+      </div>
+    </div>
+  </div>
+  <div class="col-12">
+    <div class="row">
+      <div class="col-xs-12 col-md-4 " *ngFor='let service of serviceList'>
+        <div class="card">
+          <div class="card-header bg-primary">
+            <div class="card-title">{{ service.nom }}</div>
+          </div>
+          <div class="card-body">
+            <h6 class='text-bold'>Description</h6>
+            <p> {{ service.description }} </p>
+          </div>
+          <div class="card-footer">
+            <div class="btn btn-primary" (click)='login()'>Prendre un ticket</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+
+  </div>
+
+</div>

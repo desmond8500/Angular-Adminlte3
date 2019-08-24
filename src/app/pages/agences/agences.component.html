@@ -1,0 +1,39 @@
+<div class="row">
+
+  <div class="col-xs-12 col-md-4">
+    <div class="card card-blue">
+      <div class="card-header">
+        <h3 class="card-title">Liste des structures</h3>
+        <!-- <div class="card-tools">
+          <span class="badge badge-primary">Label</span>
+        </div> -->
+      </div>
+      <div class="card-body">
+        <ul>
+          <li class='btn btn-dark' *ngFor="let structure of structures.data" (click)='getAgences(structure.id)'>{{ structure.nom }}</li>
+        </ul>
+
+        <!-- <div *ngFor="let structure of structures.data">
+          <button class="btn btn-default btn-block " (click)='getAgences(structure.id)'>{{ structure.nom }}</button>
+        </div> -->
+      </div>
+    </div>
+  </div>
+
+  <div class="col-xs-12 col-md-8">
+    <div class="card card-blue">
+      <div class="card-header">
+        <h3 class="card-title">Liste des agences</h3>
+        <!-- <div class="card-tools">
+              <span class="badge badge-primary">Label</span>
+            </div> -->
+      </div>
+      <div class="card-body">
+        <!-- {{ agence }}
+        <div *ngFor="let ag of ag.data">
+          <button class="btn btn-default btn-block " >{{ ag.nom }}</button>
+        </div> -->
+      </div>
+    </div>
+  </div>
+</div>
