@@ -7,8 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FooterComponent implements OnInit {
   public footer = {
-    name: 'Taabour',
-    lien: 'http://taabour.yonkou.info',
+    name: 'Angular AdminLte3',
+    lien: '',
     version: '1.0',
   };
   constructor() { }

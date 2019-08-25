@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { StructureService } from 'src/app/services/structure.service';
 
 
 @Component({
@@ -8,5 +7,4 @@ import { StructureService } from 'src/app/services/structure.service';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'taabour';
 }
