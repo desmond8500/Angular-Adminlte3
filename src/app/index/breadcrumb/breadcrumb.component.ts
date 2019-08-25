@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { TimeoutError } from 'rxjs';
 
 @Component({
   selector: 'app-breadcrumb',
@@ -6,7 +7,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./breadcrumb.component.css']
 })
 export class BreadcrumbComponent implements OnInit {
-
+  @Input() Titre = 'Titre';
+  @Input() liens = [
+    {
+      titre: 'Accueil',
+      lien: '/'
+    }
+  ];
   constructor() { }
 
   ngOnInit() {
