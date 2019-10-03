@@ -1,27 +1,49 @@
-<div class="row">
-  <div class="col-md-4 offset-4">
-    <div class="card">
-      <div class="card-header">
-        <div class="card-title text-center">Connexion</div>
-      </div>
-      <div class="card-body">
-        <!-- <div class="form-group">
-          <label for="">Email</label>
-          <input class='form-control' type="email" [formControl]="mail" >
-        </div> -->
-        <div class="form-group">
-          <label for="">Téléphone</label>
-          <input class='form-control' type="tel" [formControl]="mail">
+<div class="content-wrapper">
+  <app-breadcrumb [Titre]='titre'></app-breadcrumb>
+
+  <section class="content">
+    <div class="contrainer-fluid">
+      <!-- CONTENT ======================================================================== -->
+
+      <div class="row">
+        <div class="col-md-4 offset-4">
+          <div class="card">
+            <div class="card-header">
+              <div class="card-title text-center">Connexion</div>
+            </div>
+            <div class="card-body">
+              <!-- <div class="form-group">
+                <label for="">Email</label>
+                <input class='form-control' type="email" [formControl]="mail" >
+              </div> -->
+              <div class="form-group">
+                <label for="">Téléphone</label>
+                <input class='form-control' type="tel" [formControl]="mail">
+              </div>
+              <div class="form-group">
+                <label for="">Mot de passe</label>
+                <input class='form-control' type="password" [formControl]='password'>
+              </div>
+              <button class='btn btn-primary' (click)='send()'>Valider</button>
+            </div>
+            <div class="card-footer">
+              <button class="btn btn-info" (click)='register()'>S'inscrire</button>
+            </div>
+          </div>
         </div>
-        <div class="form-group">
-          <label for="">Mot de passe</label>
-          <input class='form-control' type="password" [formControl]='password' >
-        </div>
-        <button class='btn btn-primary' (click)='send()'>Valider</button>
       </div>
-      <div class="card-footer">
-        <button class="btn btn-info" (click)='register()'>S'inscrire</button>
-      </div>
+
+
+
+
+
+
+
+
+
+
+
+      <!-- CONTENT ======================================================================== -->
     </div>
-  </div>
+  </section>
 </div>

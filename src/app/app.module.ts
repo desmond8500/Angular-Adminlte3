@@ -10,12 +10,9 @@ import { FooterComponent } from './index/footer/footer.component';
 import { MenuComponent } from './index/menu/menu.component';
 import { SidemenuComponent } from './index/sidemenu/sidemenu.component';
 import { TopbarComponent } from './index/topbar/topbar.component';
-import { SmallboxComponent } from './component/box/smallbox/smallbox.component';
 import { LoginComponent } from './pages/login/login.component';
 import { RegisterComponent } from './pages/register/register.component';
 import { FulltableComponent } from './component/table/fulltable/fulltable.component';
-import { InfoboxComponent } from './component/box/infobox/infobox.component';
-import { Infobox2Component } from './component/box/infobox2/infobox2.component';
 import { TodolistComponent } from './component/card/todolist/todolist.component';
 import { OrderComponent } from './component/card/order/order.component';
 import { ProductsComponent } from './component/card/products/products.component';
@@ -56,6 +53,20 @@ import { ProjetDetailComponent } from './component/projet/projet-detail/projet-d
 import { ContactComponent } from './component/contact/contact/contact.component';
 import { ContactEditComponent } from './component/contact/contact-edit/contact-edit.component';
 import { ContactAddComponent } from './component/contact/contact-add/contact-add.component';
+import { BoxesComponent } from './pages/boxes/boxes.component';
+import { TabSetupComponent } from './setup/tab-setup/tab-setup.component';
+
+// AdminLTE3 import Modules ===================================================================
+
+
+import { InfoboxComponent } from './adminlte3/box/infobox.component';
+import { Infobox2Component } from './adminlte3/box/infobox2.component';
+import { SmallboxComponent } from './adminlte3/box/smallbox.component';
+
+
+
+// ============================================================================================
+
 
 @NgModule({
   declarations: [
@@ -65,12 +76,9 @@ import { ContactAddComponent } from './component/contact/contact-add/contact-add
     MenuComponent,
     SidemenuComponent,
     TopbarComponent,
-    SmallboxComponent,
     LoginComponent,
     RegisterComponent,
     FulltableComponent,
-    InfoboxComponent,
-    Infobox2Component,
     TodolistComponent,
     OrderComponent,
     ProductsComponent,
@@ -110,7 +118,13 @@ import { ContactAddComponent } from './component/contact/contact-add/contact-add
     ProjetDetailComponent,
     ContactComponent,
     ContactEditComponent,
-    ContactAddComponent
+    ContactAddComponent,
+    BoxesComponent,
+    TabSetupComponent,
+
+    InfoboxComponent,
+    Infobox2Component,
+    SmallboxComponent,
   ],
   imports: [
     BrowserModule,

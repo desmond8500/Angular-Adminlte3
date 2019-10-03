@@ -16,7 +16,12 @@ export class SidemenuComponent implements OnInit {
   public menu = [
     {
       nom: 'Dashboard',
-      lien: '',
+      lien: '/dashboard',
+      icon: 'nav-icon far fa-circle nav-icon',
+    },
+    {
+      nom: 'Boxes',
+      lien: '/boxes',
       icon: 'nav-icon far fa-circle nav-icon',
     },
     {

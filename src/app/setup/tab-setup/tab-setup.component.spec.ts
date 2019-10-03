@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { InfoboxComponent } from './infobox.component';
+import { TabSetupComponent } from './tab-setup.component';
 
-describe('InfoboxComponent', () => {
-  let component: InfoboxComponent;
-  let fixture: ComponentFixture<InfoboxComponent>;
+describe('TabSetupComponent', () => {
+  let component: TabSetupComponent;
+  let fixture: ComponentFixture<TabSetupComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ InfoboxComponent ]
+      declarations: [ TabSetupComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(InfoboxComponent);
+    fixture = TestBed.createComponent(TabSetupComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -6,10 +6,13 @@ import { RegisterComponent } from './pages/register/register.component';
 import { AdminComponent } from './pages/admin/admin.component';
 import { ProjectComponent } from './pages/project/project.component';
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
+import { BoxesComponent } from './pages/boxes/boxes.component';
 
 const routes: Routes = [
   { path: '', component: DashboardComponent},
-  { path: 'login', component: LoginComponent},
+  { path: 'dashboard', component: DashboardComponent },
+  { path: 'login', component: LoginComponent },
+  { path: 'boxes', component: BoxesComponent},
   { path: 'register', component: RegisterComponent},
   { path: 'admin', component: AdminComponent },
   { path: 'project', component: ProjectComponent},
