@@ -20,7 +20,6 @@ import { SimplecardComponent } from './component/card/simplecard/simplecard.comp
 import { AdminComponent } from './pages/admin/admin.component';
 import { ProjectComponent } from './pages/project/project.component';
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
-import { CardComponent } from './component/card/card/card.component';
 import { Socialwidget1Component } from './component/card/socialwidget1/socialwidget1.component';
 import { Socialwidget2Component } from './component/card/socialwidget2/socialwidget2.component';
 import { Socialwidget3Component } from './component/card/socialwidget3/socialwidget3.component';
@@ -56,12 +55,25 @@ import { ContactAddComponent } from './component/contact/contact-add/contact-add
 import { BoxesComponent } from './pages/boxes/boxes.component';
 import { TabSetupComponent } from './setup/tab-setup/tab-setup.component';
 
+import { ProjectsComponent } from './pages/projects/projects.component';
+import { MailsComponent } from './pages/mails/mails.component';
+import { CardsComponent } from './pages/cards/cards.component';
+import { TablesComponent } from './pages/tables/tables.component';
+
 // AdminLTE3 import Modules ===================================================================
 
-
+// Infoboxes
 import { InfoboxComponent } from './adminlte3/box/infobox.component';
 import { Infobox2Component } from './adminlte3/box/infobox2.component';
 import { SmallboxComponent } from './adminlte3/box/smallbox.component';
+
+// Cards
+import { CardComponent } from './adminlte3/cards/card.component';
+
+
+// Tables
+// Mail
+// Project
 
 
 
@@ -86,7 +98,6 @@ import { SmallboxComponent } from './adminlte3/box/smallbox.component';
     AdminComponent,
     ProjectComponent,
     DashboardComponent,
-    CardComponent,
     Socialwidget1Component,
     Socialwidget2Component,
     Socialwidget3Component,
@@ -121,10 +132,20 @@ import { SmallboxComponent } from './adminlte3/box/smallbox.component';
     ContactAddComponent,
     BoxesComponent,
     TabSetupComponent,
+    CardsComponent,
+    TablesComponent,
+    MailsComponent,
+    ProjectsComponent,
+    // AdminLTE3 =========================
+      // InfoBoxes
+        InfoboxComponent,
+        Infobox2Component,
+        SmallboxComponent,
 
-    InfoboxComponent,
-    Infobox2Component,
-    SmallboxComponent,
+      // Cards
+        CardComponent,
+
+    // ===================================
   ],
   imports: [
     BrowserModule,
